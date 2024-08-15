@@ -1,0 +1,24 @@
+// C++ Program to demonstrate string input using cin
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+ int a=19;
+ int *ptr_a;
+ ptr_a = &a;
+ 
+ cout<<"THe value of a is "<< a <<endl;
+ cout<<"THe value of a is "<< *ptr_a <<endl;;
+ cout<<"THe address of a is "<< &a <<endl;
+ cout<<"THe address of a is "<< ptr_a <<endl;
+   
+}
+
+
+
+O/P
+THe value of a is 19
+THe value of a is 19
+THe address of a is 0x7ffe8a0563c4
+THe address of a is 0x7ffe8a0563c4
