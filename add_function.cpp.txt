@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int sum(int a, int b)       //create function
+{
+    int c;
+        c=a+b;
+        return c;
+}
+    int main()
+    {
+        int a,b;
+        cout<<"Enter first num: "<<endl;
+        cin>>a;
+        cout<<"Enter second num: "<<endl;
+        cin>>b;
+        cout<<"Function returning this value: "<< sum(a,b);   //call function
+        
+        return 0;
+    }
+    
+
+
+O/p
+Enter first num: 
+5
+Enter second num: 
+3
+Function returning this value: 8

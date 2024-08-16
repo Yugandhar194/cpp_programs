@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int marks[6];
+    for (int i=0; i<6;i++) {
+        cout<<"Enter the marks of student: "<<i<<"th student"<<endl;
+        cin>>marks[i];
+    }
+    for(int i=0; i<6; i++)
+    {
+        cout<<"Marks of "<<i<<"th student is "<<marks[i]<<endl;
+    }
+    return 0;
+}
+
+
+
+O/P:
+
+Enter the marks of student: 0th student
+1
+Enter the marks of student: 1th student
+2
+Enter the marks of student: 2th student
+3
+Enter the marks of student: 3th student
+4
+Enter the marks of student: 4th student
+5
+Enter the marks of student: 5th student
+6
+Marks of 0th student is 1
+Marks of 1th student is 2
+Marks of 2th student is 3
+Marks of 3th student is 4
+Marks of 4th student is 5
+Marks of 5th student is 6

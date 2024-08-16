@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int arr_2d[2][3]={1,2,3,4,5,6};
+    int i,j;
+ {
+    for (i=0; i<2;i++)
+    {
+        for (j=0;j<3;j++)
+        {
+            cout<<"the value at "<<i<<","<<j<<" is "<<arr_2d[i][j]<<endl;
+        }
+    }
+ }
+    
+}
+
+
+
+O/P
+the value at 0,0 is 1
+the value at 0,1 is 2
+the value at 0,2 is 3
+the value at 1,0 is 4
+the value at 1,1 is 5
+the value at 1,2 is 6

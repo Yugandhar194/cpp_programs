@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int sqr(int a)       //create function
+{
+    int b;
+        b=a*a;
+        return b;
+}
+    int main()
+    {
+        int a,b;
+        cout<<"Enter the number whose square you want: "<<endl;
+        cin>>a;
+        cout<<"Square of "<< a<<" is number is: "<< sqr(a);   //call function
+        
+        return 0;
+    }
+
+
+O/p;
+Enter the number whose square you want: 
+7
+Square of 7 is number is: 49
